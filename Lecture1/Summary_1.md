@@ -31,5 +31,6 @@ plugins {
 ## 기타 내용들
 - TextView 중 title이 되는 element의 id를 tv_title로 지정하더라. 정식 컨벤션을 익히기에는 무리고, 이런 사소한것들 기억해두자.
 - 실습은 아직 textview 밖에 못배웠으니까, "미안하다. 이거 보여주려고 어그로 끌었다." 포맷을 화면에 출력하는 것으로 해볼까 싶다.
-- 마크다운 문법 익혀두면 좋을 것 같다. 아마 깃허브 계속 올리면서 실력이 늘겠지?
+- 마크다운 문법 익혀두면 좋을 것 같다. 아마 깃허브 계속 올리면서 실력이 늘겠지? (https://gist.github.com/ihoneymon/652be052a0727ad59601)
 - kotlin 기초 문법을 익혀야 할 것 같다. (https://www.youtube.com/watch?v=IDVnZPjRCYg&t=3367s)
+- github에 대해 공부가 필요할 듯 하다.
