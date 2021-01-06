@@ -18,10 +18,10 @@ build.gradle(Module)에 apply plugin: 'kotlin-android-extensions' 문장을 추�
 혹은 이미 써져있는 포맷에 맞게 센스있게 플러그인을 추가한다.
 
 ### <예시>
-plugins {
-    id 'com.android.application'
-    id 'kotlin-android'
-    id 'kotlin-android-extensions'
+plugins {<br>
+&nbsp;&nbsp;&nbsp;&nbsp; id 'com.android.application'<br>
+&nbsp;&nbsp;&nbsp;&nbsp; id 'kotlin-android'<br>
+&nbsp;&nbsp;&nbsp;&nbsp; id 'kotlin-android-extensions'<br>
 }
 
 이후 빨간 문장(에러의 대상) 위에서 'Alt + Enter' 혹은 빨간 전구 아이콘을 클릭해서 해결 가능하다.
