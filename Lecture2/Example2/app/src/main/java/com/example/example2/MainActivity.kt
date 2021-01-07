@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btn_getText.setOnClickListener {
-            var resultText = et_id.text.toString()
+            var resultText = et_id.getText().toString()
             tv_result.setText(resultText)
         }
     }
