@@ -16,6 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".BmiJavaActivity"
+            android:label="BmiJavaActivity" />
+
+        <activity android:name=".BmiKotlinActivity"
+            android:label="BmiKotlinActivity" />
+
     </application>
 
 </manifest>
