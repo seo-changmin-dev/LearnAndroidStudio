@@ -7,8 +7,6 @@ import kotlin.math.pow
 
 class BmiKotlinActivity : AppCompatActivity() {
 
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 

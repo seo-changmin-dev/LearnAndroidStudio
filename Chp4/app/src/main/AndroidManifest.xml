@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinSample">
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,11 +18,21 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".BmiJavaActivity"
+        <activity
+            android:name=".BmiJavaActivity"
             android:label="BmiJavaActivity" />
 
-        <activity android:name=".BmiKotlinActivity"
+        <activity
+            android:name=".BmiKotlinActivity"
             android:label="BmiKotlinActivity" />
+
+        <activity
+            android:name=".VariableJavaActivity"
+            android:label="VariableJava" />
+
+        <activity
+            android:name=".VariableKotlinActivity"
+            android:label="VariableKotlin" />
 
     </application>
 
