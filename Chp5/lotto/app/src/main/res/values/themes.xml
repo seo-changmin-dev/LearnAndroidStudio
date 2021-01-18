@@ -13,4 +13,31 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <!-- 결과화면 테마 -->
+    <style name="Theme.Lotto.Result" parent="Theme.Lotto">
+        <item name="colorPrimary">@color/colorPrimaryResult</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkResult</item>
+        <item name="colorAccent">@color/colorAccentResult</item>
+    </style>
+
+    <style name="Theme.Lotto.Constellation" parent="Theme.Lotto">
+        <item name="colorPrimary">@color/colorAccentResult</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkResult</item>
+        <item name="colorAccent">@color/colorAccentConstellation</item>
+        <!-- 버튼의 컬러 -->
+        <item name="colorButtonNormal">@color/colorButtonConstellation</item>
+        <!-- 버튼 등 텍스트 컬러 -->
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Theme.Lotto.Name" parent="Theme.Lotto">
+        <item name="colorPrimary">@color/colorPrimaryName</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkName</item>
+        <item name="colorAccent">@color/colorAccentName</item>
+        <!-- 버튼의 컬러 -->
+        <item name="colorButtonNormal">@color/colorButtonName</item>
+        <!-- 버튼 등 텍스트 컬러 -->
+        <item name="android:textColor">@android:color/white</item>
+    </style>
 </resources>
